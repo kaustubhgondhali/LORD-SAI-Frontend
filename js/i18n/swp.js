@@ -323,6 +323,17 @@
         "Explore SIP Solutions": ["SIP समाधान देखें", "SIP उपाय पाहा"],
         "SBI Equity Hybrid Fund: SWP statement, ₹{#} Cr, May {#} – May {#} (PDF, {#} pages)": ["SBI Equity Hybrid Fund: SWP स्टेटमेंट, ₹{#} करोड़, मई {#} – मई {#} (PDF, {#} पृष्ठ)", "SBI Equity Hybrid Fund: SWP स्टेटमेंट, ₹{#} कोटी, मे {#} – मे {#} (PDF, {#} पाने)"],
         "DSP Aggressive Hybrid Fund: {#}-year SWP journey, ₹{#} L, {#} – {#} (PDF, {#} pages)": ["DSP Aggressive Hybrid Fund: {#}-वर्षीय SWP यात्रा, ₹{#} लाख, {#} – {#} (PDF, {#} पृष्ठ)", "DSP Aggressive Hybrid Fund: {#} वर्षांचा SWP प्रवास, ₹{#} लाख, {#} – {#} (PDF, {#} पाने)"],
-        "Bandhan Aggressive Hybrid Fund: SWP illustration, ₹{#} Cr, Dec {#} – Jun {#} (PDF, {#} pages)": ["Bandhan Aggressive Hybrid Fund: SWP उदाहरण, ₹{#} करोड़, दिसंबर {#} – जून {#} (PDF, {#} पृष्ठ)", "Bandhan Aggressive Hybrid Fund: SWP उदाहरण, ₹{#} कोटी, डिसेंबर {#} – जून {#} (PDF, {#} पाने)"]
+        "Bandhan Aggressive Hybrid Fund: SWP illustration, ₹{#} Cr, Dec {#} – Jun {#} (PDF, {#} pages)": ["Bandhan Aggressive Hybrid Fund: SWP उदाहरण, ₹{#} करोड़, दिसंबर {#} – जून {#} (PDF, {#} पृष्ठ)", "Bandhan Aggressive Hybrid Fund: SWP उदाहरण, ₹{#} कोटी, डिसेंबर {#} – जून {#} (PDF, {#} पाने)"],
+
+        /* DSP 27-year statement: featured button (header bar + #swp-longevity strip) */
+        "See the {#}-Year ₹{#} L SWP Journey": ["{#1} वर्षों की ₹{#2} लाख SWP यात्रा देखें", "{#1} वर्षांचा ₹{#2} लाख SWP प्रवास पाहा"],
+        "DSP Aggressive Hybrid · Free PDF · {#} pages": ["DSP Aggressive Hybrid · मुफ्त PDF · {#} पेज", "DSP Aggressive Hybrid · मोफत PDF · {#} पाने"],  // no-break space glues each "·" to the word before it
+        "Real {#}-year proof": ["{#} वर्षों का असली प्रमाण", "{#} वर्षांचा खरा पुरावा"],
+        "<0>Can a {#}% withdrawal rate really last {#} years?</0> ₹{#} lakh invested in May {#} paid ₹{#} every month for {#} years (₹{#} lakh in total) and was still worth ₹{#} crore on {#} August {#}.": [
+            "<0>क्या {#1}% की निकासी दर सच में {#2} वर्षों तक चल सकती है?</0> मई {#4} में निवेश किए गए ₹{#3} लाख ने {#6} वर्षों तक हर महीने ₹{#5} दिए (कुल ₹{#7} लाख), और {#9} अगस्त {#10} को भी उनका मूल्य ₹{#8} करोड़ था।",
+            "<0>{#1}% काढण्याचा दर खरंच {#2} वर्षे टिकू शकतो का?</0> मे {#4} मध्ये गुंतवलेल्या ₹{#3} लाखांनी {#6} वर्षे दरमहा ₹{#5} दिले (एकूण ₹{#7} लाख), आणि {#9} ऑगस्ट {#10} रोजी त्यांचे मूल्य तरीही ₹{#8} कोटी होते."],
+        "DSP Mutual Fund illustration based on past NAVs, for investor education only. Past performance may or may not be sustained in future.": [
+            "पिछले NAV पर आधारित DSP Mutual Fund का उदाहरण, केवल निवेशक शिक्षा के लिए। पिछला प्रदर्शन भविष्य में बना रह भी सकता है और नहीं भी।",
+            "मागील NAV वर आधारित DSP Mutual Fund चे उदाहरण, केवळ गुंतवणूकदार शिक्षणासाठी. मागील कामगिरी भविष्यात टिकेलच असे नाही."]
     });
 })(window);

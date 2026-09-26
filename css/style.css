@@ -4093,6 +4093,32 @@ html.mode-mutual-fund .mf-bg-visual--contact.contact-no-bg-art {
 .swpbro-strip-text strong { color: var(--lsi-gray-800); }
 .swpbro-strip .swpbro-btn { flex: 0 0 auto; }
 .swpbro-strip .swpbro-btn:focus-visible { outline-color: #0369A1; }
+/* Third copy: in the quick-navigation bar under the SWP header (light background) */
+.swpbro-navrow .swpbro-btn:focus-visible { outline-color: #0369A1; }
+
+/* DSP variant: deep-blue button for the 27-year DSP Aggressive Hybrid SWP statement
+   (header bar + #swp-longevity strip). White text stays above 5:1 on every stop. */
+.swpbro-btn--dsp {
+    background: linear-gradient(135deg, #0C4A6E 0%, #0369A1 50%, #0E7490 100%);
+    box-shadow: 0 10px 24px rgba(3, 105, 161, .35), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.swpbro-btn--dsp:hover, .swpbro-btn--dsp:focus {
+    box-shadow: 0 14px 30px rgba(3, 105, 161, .45), inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.swpbro-btn--dsp .swpbro-btn-text { color: #fff; }
+.swpbro-btn--dsp .swpbro-btn-sub { opacity: .9; }
+.swpbro-btn--dsp .swpbro-btn-arrow { background: rgba(255, 255, 255, .18); color: #fff; }
+.swpbro-btn--dsp::after { animation-delay: 4s; }  /* shine after the Bajaj button's, not in step */
+.swpbro-strip--dsp {
+    border-color: #BAE6FD; border-left-color: #0369A1;
+    background: linear-gradient(135deg, #EFF8FF 0%, #FFFFFF 70%);
+}
+.swpbro-strip--dsp .swpbro-strip-kicker { color: #0369A1; }
+.swpbro-strip-note { flex: 1 1 100%; font-size: .72rem; line-height: 1.5; color: #64748B; }
+/* Its longer label wraps on phones: split each line evenly rather than leaving one word alone. */
+@media (max-width: 575.98px) {
+    .swpbro-btn--dsp .swpbro-btn-main, .swpbro-btn--dsp .swpbro-btn-sub { text-wrap: balance; }
+}
 
 @media (min-width: 992px) {
     .swpbro { grid-template-columns: minmax(0, 1fr) 280px; gap: 40px; align-items: center; padding: 40px 44px; }

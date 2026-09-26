@@ -26,7 +26,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css?v=20260925e" rel="stylesheet">
+    <link href="css/style.css?v=20260926c" rel="stylesheet">
 </head>
 
 <body>
@@ -207,6 +207,26 @@
                 <a href="docs/swp-case-sbi-equity-hybrid.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill fw-bold" title="SBI Equity Hybrid Fund: SWP statement, &#8377;1 Cr, May 2016 &ndash; May 2026 (PDF, 3 pages)"><i class="fas fa-file-pdf me-1"></i> SBI SWP (PDF)</a>
                 <a href="docs/swp-case-dsp-aggressive-hybrid.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill fw-bold" title="DSP Aggressive Hybrid Fund: 27-year SWP journey, &#8377;50 L, 1999 &ndash; 2026 (PDF, 8 pages)"><i class="fas fa-file-pdf me-1"></i> DSP SWP (PDF)</a>
                 <a href="docs/swp-case-bandhan-aggressive-hybrid.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-danger rounded-pill fw-bold" title="Bandhan Aggressive Hybrid Fund: SWP illustration, &#8377;1 Cr, Dec 2016 &ndash; Jun 2026 (PDF, 5 pages)"><i class="fas fa-file-pdf me-1"></i> Bandhan SWP (PDF)</a>
+                <!-- Featured PDFs on their own line: the Bajaj brochure (same button as #swp-brochure and the
+                     #swp-management strip) and the DSP 27-year statement (same PDF as the "DSP SWP (PDF)" pill) -->
+                <div class="swpbro-navrow w-100 d-flex flex-wrap justify-content-center gap-3 pt-1">
+                    <a href="docs/bajaj-finserv-multi-asset-swp-brochure.pdf" target="_blank" rel="noopener noreferrer" class="swpbro-btn" title="Bajaj Finserv Multi Asset Allocation Fund: brochure with a &#8377;1 Cr SWP illustration, Jun 2024 &ndash; Aug 2026 (PDF, 6 pages)">
+                        <span class="swpbro-btn-icon" aria-hidden="true"><i class="fas fa-file-pdf"></i></span>
+                        <span class="swpbro-btn-text">
+                            <span class="swpbro-btn-main">View the &#8377;1 Cr SWP Brochure</span>
+                            <span class="swpbro-btn-sub">Bajaj Finserv &middot; Free PDF &middot; 6 pages</span>
+                        </span>
+                        <span class="swpbro-btn-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    <a href="docs/swp-case-dsp-aggressive-hybrid.pdf" target="_blank" rel="noopener noreferrer" class="swpbro-btn swpbro-btn--dsp" title="DSP Aggressive Hybrid Fund: 27-year SWP journey, &#8377;50 L, 1999 &ndash; 2026 (PDF, 8 pages)">
+                        <span class="swpbro-btn-icon" aria-hidden="true"><i class="fas fa-file-pdf"></i></span>
+                        <span class="swpbro-btn-text">
+                            <span class="swpbro-btn-main">See the 27-Year &#8377;50 L SWP Journey</span>
+                            <span class="swpbro-btn-sub">DSP Aggressive Hybrid&nbsp;&middot; Free PDF&nbsp;&middot; 8 pages</span>
+                        </span>
+                        <span class="swpbro-btn-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -675,6 +695,24 @@
                     <p class="sipedu-src mb-0">
                         <strong>Educational Notes:</strong> Figures above are hypothetical mathematical simulations assuming uniform compounding at 9% p.a. and do not represent actual returns of any specific mutual fund scheme. In actual market conditions, returns fluctuate year-to-year and taxes/exit loads may apply. Consult your Lord Sai AMFI-registered distributor before deciding your withdrawal strategy.
                     </p>
+
+                    <!-- Real-life proof for the table above: the DSP 27-year SWP statement (same PDF as the header button) -->
+                    <div class="swpbro-strip swpbro-strip--dsp mt-4">
+                        <div class="swpbro-strip-icon" aria-hidden="true"><i class="fas fa-hourglass-half"></i></div>
+                        <div class="swpbro-strip-text">
+                            <span class="swpbro-strip-kicker">Real 27-year proof</span>
+                            <p class="mb-0"><strong>Can a 6% withdrawal rate really last 27 years?</strong> &#8377;50 lakh invested in May 1999 paid &#8377;25,000 every month for 27 years (&#8377;81.75 lakh in total) and was still worth &#8377;9.56 crore on 3 August 2026.</p>
+                        </div>
+                        <a href="docs/swp-case-dsp-aggressive-hybrid.pdf" target="_blank" rel="noopener noreferrer" class="swpbro-btn swpbro-btn--dsp" title="DSP Aggressive Hybrid Fund: 27-year SWP journey, &#8377;50 L, 1999 &ndash; 2026 (PDF, 8 pages)">
+                            <span class="swpbro-btn-icon" aria-hidden="true"><i class="fas fa-file-pdf"></i></span>
+                            <span class="swpbro-btn-text">
+                                <span class="swpbro-btn-main">See the 27-Year &#8377;50 L SWP Journey</span>
+                                <span class="swpbro-btn-sub">DSP Aggressive Hybrid&nbsp;&middot; Free PDF&nbsp;&middot; 8 pages</span>
+                            </span>
+                            <span class="swpbro-btn-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                        </a>
+                        <p class="swpbro-strip-note mb-0">DSP Mutual Fund illustration based on past NAVs, for investor education only. Past performance may or may not be sustained in future.</p>
+                    </div>
                 </div>
 
             <!-- =================================================================
@@ -1359,7 +1397,7 @@
     <!-- Enquiry and review forms: sent to the owner on WhatsApp and by email (js/enquiry.js) -->
     <script src="js/enquiry.js?v=20260926a"></script>
     <script src="js/translations.js?v=20260923-caps"></script>
-    <script src="js/lang.js?v=20260925h"></script>
+    <script src="js/lang.js?v=20260926b"></script>
     <script src="js/mode.js?v=20260925b"></script>
     <script src="js/offerings-data.js"></script>
     <script src="js/main.js?v=20260925d"></script>
